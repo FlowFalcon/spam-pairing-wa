@@ -64,7 +64,7 @@ async function KleeProject() {
 
     return KleeBotInc;
 }
-console.log(KleeColor + `Running... spam-pairing-wa
+console.log(Color + `Running... spam-pairing-wa
 =========================
  • spam-pairing-wa
  • by FlowFalcon
