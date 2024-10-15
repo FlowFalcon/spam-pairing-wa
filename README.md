@@ -2,7 +2,7 @@
 Tools Spam Pairing Whatsapp using Javascript and Nodejs
 <div align="center">
   <p>
-    <img src="./1jpg" width="250">
+    <img src="1.jpg" width="250">
   </p>
   <p> THIS TOOLS ONLY AVAILABLE ON NUMBER +62<br>
   IF IT'S ON ANOTHER NUMBER IT'S A BIG LUCK</p>
