@@ -78,6 +78,6 @@ console.log(color + `Running... spam-pairing-wa
 ┃
 ┃ [ THIS TOOL CAN ONLY BE USED ON NUMBER +62 ]
 ┗❐ 
-=========================` + color);
+=========================` + xColor);
 
 KleeProject();
