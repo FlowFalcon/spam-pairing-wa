@@ -38,10 +38,10 @@ async function KleeProject() {
     });
     try {
         // Ask for phone number
-        const phoneNumber = await question(KleeColor + 'Target : ' + xColor);
+        const phoneNumber = await question(color + 'Target : ' + xColor);
         
         // Request the desired number of pairing codes
-        const KleeCodes = parseInt(await question(KleeColor + 'Total spam : '+ xColor));
+        const KleeCodes = parseInt(await question(color + 'Total spam : '+ xColor));
 
         if (isNaN(KleeCodes) || KleeCodes <= 0) {
             console.log('example : 20.');
@@ -53,7 +53,7 @@ async function KleeProject() {
             try {
                 let code = await KleeBotInc.requestPairingCode(phoneNumber);
                 code = code?.match(/.{1,4}/g)?.join("-") || code;
-                console.log(KleeColor + `Succes Spam Pairing Code - Number : ${phoneNumber} from : [${i + 1}/${KleeCodes}]`+ xColor);
+                console.log(color + `Succes Spam Pairing Code - Number : ${phoneNumber} from : [${i + 1}/${KleeCodes}]`+ xColor);
             } catch (error) {
                 console.error('Error:', error.message);
             }
@@ -78,6 +78,6 @@ console.log(color + `Running... spam-pairing-wa
 ┃
 ┃ [ THIS TOOL CAN ONLY BE USED ON NUMBER +62 ]
 ┗❐ 
-=========================` + xColor);
+=========================` + xcolor);
 
 KleeProject();
